@@ -4,6 +4,7 @@ import { Box } from "@mui/material";
 import {Navbar,Feed,ChannelDetail,VideoDetail,SearchFeed} from "./components";
 
 const App = () => (
+  
   <BrowserRouter>
     <Box sx={{ backgroundColor: "#000" }}>
         <Navbar/>

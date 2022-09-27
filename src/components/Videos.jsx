@@ -4,6 +4,7 @@ import {VideoCard,ChannelCard} from './'
 
 const Videos = ({ videos,direction}) => {
  console.log(videos)
+ console.log('test')
   if(!videos)return '...Loading'
   return (
     <Stack direction={direction||'row'} flexWrap="wrap" justifyContent="start" alignItems="start" gap={2}>
